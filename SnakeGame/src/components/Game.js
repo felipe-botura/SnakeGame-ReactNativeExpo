@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
-import { SafeAreaView, StyleSheet, Dimensions } from "react-native";
+import { SafeAreaView, StyleSheet, Dimensions } from 'react-native';
 import { PanGestureHandler } from "react-native-gesture-handler";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Direction } from "../types";
@@ -113,7 +113,7 @@ const Game = () => {
 
   function testGameOver(snakeHead) {
     return (
-      snakeHead.x < limits.minx ||
+      snakeHead.x < limits.minX ||
       snakeHead.x > limits.maxX ||
       snakeHead.y < limits.minY ||
       snakeHead.y > limits.maxY
@@ -147,7 +147,7 @@ const Game = () => {
         />
         <Board rows={ROWS} cols={COLS} top={insets.top} />
         <Snake snake={snake} top={insets.top} />
-        {RandomFood}
+        {randDomFood} 
       </SafeAreaView>
     </PanGestureHandler>
   )

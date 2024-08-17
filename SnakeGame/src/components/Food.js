@@ -1,4 +1,4 @@
-import { text, View } from "react-native";
+import { Text, View } from "react-native";
 import { BORDER, HEADER_HEIGHT, PIXEL } from "../consts";
 
 const foodemojis = [
