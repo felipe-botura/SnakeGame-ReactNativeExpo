@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native-gesture-handler"
+import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { colors } from "../styles/theme";
 import { HEADER_HEIGHT } from "../consts";
 import Ionicons from "@expo/vector-icons/Ionicons";
