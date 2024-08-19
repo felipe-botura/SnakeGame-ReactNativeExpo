@@ -74,7 +74,6 @@ const Game = () => {
         setDirection(Direction.Up)
       }
     }
-
   }
 
   function moveSnake() {
@@ -91,7 +90,7 @@ const Game = () => {
         head.y += 1;
         break;
       case Direction.Up:
-        head.x -= 1;
+        head.y -= 1;
         break;
       default:
         break;

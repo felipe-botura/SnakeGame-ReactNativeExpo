@@ -23,6 +23,7 @@ const Snake = ({ snake, top }) => {
           top: node.y * PIXEL + top + HEADER_HEIGHT,
           left: node.x * PIXEL + BORDER,
           backgroundColor: index === 0 ? colors.p7 : colors.p2,
+          zIndex: index === 0 ? 99 : 1,
         };
         return (
           <Animated.View
